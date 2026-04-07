@@ -272,7 +272,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Finland",
     type: "Vegetarian",
     time: 40,
-    img: "https://i.postimg.cc/7L3ywRBZ/vanilja-mustikkapiiras.jpg?auto=format&fit=crop&w=800&q=80",
+    img: "https://images.unsplash.com/photo-1572526474144-98925b3468df?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Blueberries", "Flour", "Sugar", "Butter", "Eggs", "Milk"],
     steps: [
         "Prepare the pie crust using flour, butter, and sugar.",
