@@ -240,7 +240,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Finland",
     type: "Vegetarian",
     time: 45,
-    img: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+    img: "https://postimg.cc/0MgNSMhW",
     ingredients: ["Rye flour", "Rice", "Milk", "Butter", "Salt"],
     steps: [
         "Prepare rice porridge using rice and milk.",
@@ -288,7 +288,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "South Korea",
     type: "Vegetarian",
     time: 60,
-    img: "https://images.unsplash.com/photo-1604908177520-4029bba1c03b?auto=format&fit=crop&w=800&q=80",
+    img: "https://images.unsplash.com/photo-1583224964978-2257b960c3d3?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Napa cabbage", "Garlic", "Ginger", "Chili flakes", "Salt", "Fish sauce (optional)"],
     steps: [
         "Salt the cabbage and let it rest to soften.",
@@ -320,7 +320,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "South Korea",
     type: "Vegetarian",
     time: 20,
-    img: "https://images.unsplash.com/photo-1625944525533-473f1f1b4b74?auto=format&fit=crop&w=800&q=80",
+    img: "https://images.unsplash.com/photo-1730900737734-f159ca5640c3?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Rice cakes", "Gochujang", "Sugar", "Garlic", "Fish cakes (optional)", "Water"],
     steps: [
         "Boil water and add gochujang, sugar, and garlic.",
