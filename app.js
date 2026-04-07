@@ -471,6 +471,101 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
         "Roll tightly.",
         "Serve with dipping sauce."
     ]
+},
+  {
+    id: 31,
+    name: "Pad Thai",
+    country: "Thailand",
+    type: "Non-Vegetarian",
+    time: 30,
+    img: "https://images.unsplash.com/photo-1655091273851-7bdc2e578a88?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Rice noodles", "Shrimp", "Eggs", "Peanuts", "Bean sprouts", "Tamarind sauce"],
+    steps: [
+        "Soak and cook rice noodles.",
+        "Stir-fry shrimp and eggs.",
+        "Add noodles and sauce.",
+        "Mix with vegetables and peanuts.",
+        "Serve hot."
+    ]
+},
+{
+    id: 32,
+    name: "Green Curry",
+    country: "Thailand",
+    type: "Non-Vegetarian",
+    time: 35,
+    img: "https://i.postimg.cc/TwRm9phZ/Green-curry-chicken-sq-2.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Chicken", "Coconut milk", "Green curry paste", "Vegetables", "Basil"],
+    steps: [
+        "Cook curry paste in a pan.",
+        "Add coconut milk and stir.",
+        "Add chicken and vegetables.",
+        "Simmer until cooked.",
+        "Serve with rice."
+    ]
+},
+{
+    id: 33,
+    name: "Mango Sticky Rice",
+    country: "Thailand",
+    type: "Vegetarian",
+    time: 25,
+    img: "https://i.postimg.cc/NfWHnN55/AR-150313-thai-sweet-sticky-rice-with-mango-khao-neeo-mamuang-ddmfs-1x2-hero-0e40dae3393645e28e6ca20.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Sticky rice", "Mango", "Coconut milk", "Sugar"],
+    steps: [
+        "Cook sticky rice.",
+        "Prepare coconut milk sauce.",
+        "Slice fresh mango.",
+        "Serve rice with mango and sauce."
+    ]
+},
+{
+    id: 34,
+    name: "Paella",
+    country: "Spain",
+    type: "Non-Vegetarian",
+    time: 45,
+    img: "https://images.unsplash.com/photo-1623961990059-28356e226a77?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Rice", "Seafood", "Saffron", "Vegetables", "Chicken"],
+    steps: [
+        "Cook rice with saffron.",
+        "Add seafood and chicken.",
+        "Mix with vegetables.",
+        "Cook until flavors combine.",
+        "Serve hot."
+    ]
+},
+{
+    id: 35,
+    name: "Tortilla Española",
+    country: "Spain",
+    type: "Vegetarian",
+    time: 30,
+    img: "https://i.postimg.cc/brZZCbP7/213226-tortilla-espanola-VAT-007-4x3-70f5f39a1d884375b7a0a5b8ef963e18.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Potatoes", "Eggs", "Onion", "Olive oil"],
+    steps: [
+        "Slice and fry potatoes.",
+        "Mix with beaten eggs.",
+        "Cook in a pan until set.",
+        "Flip and cook the other side.",
+        "Serve warm."
+    ]
+},
+{
+    id: 36,
+    name: "Churros",
+    country: "Spain",
+    type: "Vegetarian",
+    time: 20,
+    img: "https://i.postimg.cc/2SQVKCpS/ALR-recipe-24700-churros-VAT-hero-03-4x3-a7f6af1860934b0385f84ab9f13f2613.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Flour", "Water", "Sugar", "Oil"],
+    steps: [
+        "Prepare dough with flour and water.",
+        "Pipe into hot oil.",
+        "Fry until golden.",
+        "Coat with sugar.",
+        "Serve with chocolate."
+    ]
 }
 ];
 
@@ -510,6 +605,8 @@ function loadRecipes() {
     France: "https://commons.wikimedia.org/wiki/Special:Redirect/file/France%20%28orthographic%20projection%29.svg",
     Germany: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Germany%20%28orthographic%20projection%29.svg",
     Vietnam: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vietnam%20%28orthographic%20projection%29.svg",
+    Spain: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain%20%28orthographic%20projection%29.svg",
+    Thailand: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thailand%20%28orthographic%20projection%29.svg",
   };
 
   document.getElementById("mapTitle").innerText = country + " Map";
