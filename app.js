@@ -304,7 +304,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "South Korea",
     type: "Non-Vegetarian",
     time: 30,
-    img: "https://images.unsplash.com/photo-1553163147-622ab57be1c7?auto=format&fit=crop&w=800&q=80",
+    img: "https://images.unsplash.com/photo-1718777791239-c473e9ce7376?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Rice", "Beef", "Vegetables", "Egg", "Gochujang (chili paste)", "Sesame oil"],
     steps: [
         "Cook rice and prepare assorted vegetables.",
@@ -328,6 +328,148 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
         "Add fish cakes if desired.",
         "Simmer until sauce thickens.",
         "Serve hot."
+    ]
+},
+  {
+    id: 22,
+    name: "Croissant",
+    country: "France",
+    type: "Vegetarian",
+    time: 60,
+    img: "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg",
+    ingredients: ["Flour", "Butter", "Milk", "Sugar", "Yeast"],
+    steps: [
+        "Prepare dough using flour, yeast, milk, and sugar.",
+        "Layer with butter and fold multiple times.",
+        "Shape into crescent forms.",
+        "Bake until golden and flaky.",
+        "Serve warm."
+    ]
+},
+{
+    id: 23,
+    name: "Ratatouille",
+    country: "France",
+    type: "Vegetarian",
+    time: 40,
+    img: "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+    ingredients: ["Eggplant", "Zucchini", "Tomatoes", "Onion", "Garlic", "Herbs"],
+    steps: [
+        "Chop all vegetables evenly.",
+        "Sauté onions and garlic.",
+        "Add vegetables and cook slowly.",
+        "Season with herbs.",
+        "Serve hot."
+    ]
+},
+{
+    id: 24,
+    name: "Coq au Vin",
+    country: "France",
+    type: "Non-Vegetarian",
+    time: 50,
+    img: "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+    ingredients: ["Chicken", "Red wine", "Mushrooms", "Onion", "Garlic", "Herbs"],
+    steps: [
+        "Marinate chicken in wine.",
+        "Cook chicken until browned.",
+        "Add vegetables and herbs.",
+        "Simmer slowly in wine sauce.",
+        "Serve hot."
+    ]
+},
+  {
+    id: 25,
+    name: "Bratwurst",
+    country: "Germany",
+    type: "Non-Vegetarian",
+    time: 25,
+    img: "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg",
+    ingredients: ["Sausages", "Bread", "Mustard", "Onion"],
+    steps: [
+        "Grill or pan-fry the sausages.",
+        "Toast the bread.",
+        "Place sausage in bread.",
+        "Add mustard and onions.",
+        "Serve hot."
+    ]
+},
+{
+    id: 26,
+    name: "Pretzel",
+    country: "Germany",
+    type: "Vegetarian",
+    time: 40,
+    img: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
+    ingredients: ["Flour", "Yeast", "Water", "Salt", "Baking soda"],
+    steps: [
+        "Prepare dough using flour and yeast.",
+        "Shape into pretzel form.",
+        "Boil briefly in baking soda water.",
+        "Bake until golden brown.",
+        "Sprinkle salt and serve."
+    ]
+},
+{
+    id: 27,
+    name: "Schnitzel",
+    country: "Germany",
+    type: "Non-Vegetarian",
+    time: 30,
+    img: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+    ingredients: ["Meat cutlet", "Eggs", "Breadcrumbs", "Flour", "Oil"],
+    steps: [
+        "Flatten the meat.",
+        "Coat with flour, egg, and breadcrumbs.",
+        "Fry until crispy.",
+        "Serve with lemon or sides."
+    ]
+},
+  {
+    id: 28,
+    name: "Pho",
+    country: "Vietnam",
+    type: "Non-Vegetarian",
+    time: 45,
+    img: "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg",
+    ingredients: ["Rice noodles", "Beef", "Broth", "Herbs", "Spices"],
+    steps: [
+        "Prepare broth with spices.",
+        "Cook rice noodles.",
+        "Add beef slices.",
+        "Pour hot broth over noodles.",
+        "Garnish with herbs and serve."
+    ]
+},
+{
+    id: 29,
+    name: "Banh Mi",
+    country: "Vietnam",
+    type: "Non-Vegetarian",
+    time: 20,
+    img: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+    ingredients: ["Baguette", "Meat", "Vegetables", "Pickles", "Sauce"],
+    steps: [
+        "Slice the baguette.",
+        "Add cooked meat.",
+        "Fill with vegetables and pickles.",
+        "Add sauce.",
+        "Serve fresh."
+    ]
+},
+{
+    id: 30,
+    name: "Spring Rolls",
+    country: "Vietnam",
+    type: "Vegetarian",
+    time: 25,
+    img: "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg",
+    ingredients: ["Rice paper", "Vegetables", "Noodles", "Herbs"],
+    steps: [
+        "Soften rice paper in water.",
+        "Place vegetables and noodles inside.",
+        "Roll tightly.",
+        "Serve with dipping sauce."
     ]
 }
 ];
@@ -365,6 +507,9 @@ function loadRecipes() {
     Egypt: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Egypt%20%28orthographic%20projection%29.svg",
     Finland: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Finland%20%28orthographic%20projection%29.svg",
     "South Korea": "https://commons.wikimedia.org/wiki/Special:Redirect/file/South%20Korea%20%28orthographic%20projection%29.svg",
+    France: "https://commons.wikimedia.org/wiki/Special:Redirect/file/France%20%28orthographic%20projection%29.svg",
+    Germany: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Germany%20%28orthographic%20projection%29.svg",
+    Vietnam: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vietnam%20%28orthographic%20projection%29.svg",
   };
 
   document.getElementById("mapTitle").innerText = country + " Map";
