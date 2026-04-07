@@ -539,7 +539,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     id: 35,
     name: "Tortilla Española",
     country: "Spain",
-    type: "Vegetarian",
+    type: "Non-Vegetarian",
     time: 30,
     img: "https://i.postimg.cc/brZZCbP7/213226-tortilla-espanola-VAT-007-4x3-70f5f39a1d884375b7a0a5b8ef963e18.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Potatoes", "Eggs", "Onion", "Olive oil"],
