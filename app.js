@@ -336,7 +336,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "France",
     type: "Vegetarian",
     time: 60,
-    img: "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg",
+    img: "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Flour", "Butter", "Milk", "Sugar", "Yeast"],
     steps: [
         "Prepare dough using flour, yeast, milk, and sugar.",
@@ -352,7 +352,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "France",
     type: "Vegetarian",
     time: 40,
-    img: "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+    img: "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Eggplant", "Zucchini", "Tomatoes", "Onion", "Garlic", "Herbs"],
     steps: [
         "Chop all vegetables evenly.",
@@ -368,7 +368,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "France",
     type: "Non-Vegetarian",
     time: 50,
-    img: "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+    img: "https://i.postimg.cc/Vv8vzTP7/images.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Chicken", "Red wine", "Mushrooms", "Onion", "Garlic", "Herbs"],
     steps: [
         "Marinate chicken in wine.",
@@ -384,7 +384,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Germany",
     type: "Non-Vegetarian",
     time: 25,
-    img: "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg",
+    img: "https://images.unsplash.com/photo-1695089026763-0d984cbf7088?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Sausages", "Bread", "Mustard", "Onion"],
     steps: [
         "Grill or pan-fry the sausages.",
@@ -400,7 +400,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Germany",
     type: "Vegetarian",
     time: 40,
-    img: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
+    img: "hhttps://i.postimg.cc/yN0z7N1j/pretzel-salts-shape-is-flatter-than-regular-salt-1689979496.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Flour", "Yeast", "Water", "Salt", "Baking soda"],
     steps: [
         "Prepare dough using flour and yeast.",
@@ -416,7 +416,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Germany",
     type: "Non-Vegetarian",
     time: 30,
-    img: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+    img: "https://i.postimg.cc/rsmbRyTy/Breitenlesau-Krug-Brau-Schnitzel.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Meat cutlet", "Eggs", "Breadcrumbs", "Flour", "Oil"],
     steps: [
         "Flatten the meat.",
@@ -431,7 +431,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Vietnam",
     type: "Non-Vegetarian",
     time: 45,
-    img: "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg",
+    img: "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Rice noodles", "Beef", "Broth", "Herbs", "Spices"],
     steps: [
         "Prepare broth with spices.",
@@ -447,7 +447,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Vietnam",
     type: "Non-Vegetarian",
     time: 20,
-    img: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+    img: "https://i.postimg.cc/CM9TnDR6/banh-mi-with-grilled-pork1-1663331872.avif?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Baguette", "Meat", "Vegetables", "Pickles", "Sauce"],
     steps: [
         "Slice the baguette.",
@@ -463,7 +463,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Vietnam",
     type: "Vegetarian",
     time: 25,
-    img: "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg",
+    img: "https://i.postimg.cc/y6Mt8HGX/24239-vietnamese-fresh-spring-rolls-VAT-003-4x3-02closeup-aa51c09981414dab9b14007c78a9bbab.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Rice paper", "Vegetables", "Noodles", "Herbs"],
     steps: [
         "Soften rice paper in water.",
