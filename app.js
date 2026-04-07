@@ -240,7 +240,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Finland",
     type: "Vegetarian",
     time: 45,
-    img: "https://postimg.cc/0MgNSMhW?auto=format&fit=crop&w=800&q=80",
+    img: "https://i.postimg.cc/qRq692wT/Karjalanpiirakka-20060227.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Rye flour", "Rice", "Milk", "Butter", "Salt"],
     steps: [
         "Prepare rice porridge using rice and milk.",
@@ -256,7 +256,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Finland",
     type: "Non-Vegetarian",
     time: 30,
-    img: "https://postimg.cc/VJWygSSW?auto=format&fit=crop&w=800&q=80",
+    img: "https://i.postimg.cc/MphWWVqN/images.webp?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Salmon", "Potatoes", "Carrots", "Onion", "Cream", "Dill"],
     steps: [
         "Boil potatoes, carrots, and onions in water.",
@@ -272,7 +272,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Finland",
     type: "Vegetarian",
     time: 40,
-    img: "https://postimg.cc/QBdzqfG2?auto=format&fit=crop&w=800&q=80",
+    img: "https://i.postimg.cc/7L3ywRBZ/vanilja-mustikkapiiras.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Blueberries", "Flour", "Sugar", "Butter", "Eggs", "Milk"],
     steps: [
         "Prepare the pie crust using flour, butter, and sugar.",
