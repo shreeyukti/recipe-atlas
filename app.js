@@ -233,6 +233,102 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
         "Slice into thin strips.",
         "Wrap in pita bread with vegetables and sauce."
     ]
+},
+  {
+    id: 16,
+    name: "Karjalanpiirakka (Karelian Pies)",
+    country: "Finland",
+    type: "Vegetarian",
+    time: 45,
+    img: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Rye flour", "Rice", "Milk", "Butter", "Salt"],
+    steps: [
+        "Prepare rice porridge using rice and milk.",
+        "Make dough using rye flour and water.",
+        "Roll dough into thin oval shapes.",
+        "Fill with rice porridge and fold edges.",
+        "Bake until golden and serve with butter."
+    ]
+},
+{
+    id: 17,
+    name: "Lohikeitto (Salmon Soup)",
+    country: "Finland",
+    type: "Non-Vegetarian",
+    time: 30,
+    img: "https://images.unsplash.com/photo-1604908177453-7462958e4a6f?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Salmon", "Potatoes", "Carrots", "Onion", "Cream", "Dill"],
+    steps: [
+        "Boil potatoes, carrots, and onions in water.",
+        "Add salmon pieces and cook gently.",
+        "Pour in cream and simmer.",
+        "Season with salt and dill.",
+        "Serve hot."
+    ]
+},
+{
+    id: 18,
+    name: "Mustikkapiirakka (Blueberry Pie)",
+    country: "Finland",
+    type: "Vegetarian",
+    time: 40,
+    img: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Blueberries", "Flour", "Sugar", "Butter", "Eggs", "Milk"],
+    steps: [
+        "Prepare the pie crust using flour, butter, and sugar.",
+        "Spread fresh blueberries over the crust.",
+        "Mix eggs and milk to make a filling.",
+        "Pour the mixture over the blueberries.",
+        "Bake until set and golden."
+    ]
+},
+{
+    id: 19,
+    name: "Kimchi",
+    country: "South Korea",
+    type: "Vegetarian",
+    time: 60,
+    img: "https://images.unsplash.com/photo-1604908177520-4029bba1c03b?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Napa cabbage", "Garlic", "Ginger", "Chili flakes", "Salt", "Fish sauce (optional)"],
+    steps: [
+        "Salt the cabbage and let it rest to soften.",
+        "Prepare a paste with garlic, ginger, and chili flakes.",
+        "Mix the cabbage with the paste thoroughly.",
+        "Store in a container and let it ferment.",
+        "Serve as a side dish."
+    ]
+},
+{
+    id: 20,
+    name: "Bibimbap",
+    country: "South Korea",
+    type: "Non-Vegetarian",
+    time: 30,
+    img: "https://images.unsplash.com/photo-1553163147-622ab57be1c7?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Rice", "Beef", "Vegetables", "Egg", "Gochujang (chili paste)", "Sesame oil"],
+    steps: [
+        "Cook rice and prepare assorted vegetables.",
+        "Cook beef with seasoning.",
+        "Place rice in a bowl and arrange toppings on top.",
+        "Add a fried egg and gochujang.",
+        "Mix well before eating."
+    ]
+},
+{
+    id: 21,
+    name: "Tteokbokki",
+    country: "South Korea",
+    type: "Vegetarian",
+    time: 20,
+    img: "https://images.unsplash.com/photo-1625944525533-473f1f1b4b74?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Rice cakes", "Gochujang", "Sugar", "Garlic", "Fish cakes (optional)", "Water"],
+    steps: [
+        "Boil water and add gochujang, sugar, and garlic.",
+        "Add rice cakes and cook until soft.",
+        "Add fish cakes if desired.",
+        "Simmer until sauce thickens.",
+        "Serve hot."
+    ]
 }
 ];
 
@@ -266,7 +362,9 @@ function loadRecipes() {
     Italy: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Italy%20%28orthographic%20projection%29.svg",
     Japan: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Japan%20%28orthographic%20projection%29.svg",
     Mexico: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mexico%20%28orthographic%20projection%29.svg",
-    Egypt: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Egypt%20%28orthographic%20projection%29.svg"
+    Egypt: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Egypt%20%28orthographic%20projection%29.svg",
+    Finland: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Finland%20%28orthographic%20projection%29.svg",
+    "South Korea": "https://commons.wikimedia.org/wiki/Special:Redirect/file/South%20Korea%20%28orthographic%20projection%29.svg",
   };
 
   document.getElementById("mapTitle").innerText = country + " Map";
