@@ -400,7 +400,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Germany",
     type: "Vegetarian",
     time: 40,
-    img: "hhttps://i.postimg.cc/yN0z7N1j/pretzel-salts-shape-is-flatter-than-regular-salt-1689979496.jpg?auto=format&fit=crop&w=800&q=80",
+    img: "https://i.postimg.cc/yN0z7N1j/pretzel-salts-shape-is-flatter-than-regular-salt-1689979496.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Flour", "Yeast", "Water", "Salt", "Baking soda"],
     steps: [
         "Prepare dough using flour and yeast.",
@@ -567,6 +567,14 @@ function displayRecipes(list) {
     `;
   });
 }
+
+function goToRandomRecipe() {
+    const randomIndex = Math.floor(Math.random() * recipes.length);
+    const randomRecipe = recipes[randomIndex];
+
+    window.location.href = "recipe-details.html?id=${randomRecipe.id}";
+}
+
 
 /* ---------- ADD RECIPE ---------- */
 function submitUserRecipe() {
