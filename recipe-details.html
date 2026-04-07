@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Details</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="country-recipes.html">← Back</a>
+</header>
+
+<main class="details-container">
+
+  <div id="recipeDetails"></div>
+
+  <section class="review-section">
+    <h2>Leave a Review</h2>
+
+    <input type="text" id="name" placeholder="Your name">
+
+    <div class="star-rating">
+      <span data-value="1">⭐</span>
+      <span data-value="2">⭐</span>
+      <span data-value="3">⭐</span>
+      <span data-value="4">⭐</span>
+      <span data-value="5">⭐</span>
+    </div>
+
+    <input type="hidden" id="rating">
+
+    <textarea id="comment" placeholder="Write review"></textarea>
+
+    <button onclick="submitReview()">Submit</button>
+
+    <h3>Reviews</h3>
+    <div id="reviewList"></div>
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

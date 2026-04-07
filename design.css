@@ -1,0 +1,609 @@
+@import url('https://fonts.cdnfonts.com/css/the-seasons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2eebe;
+  color: #4f5f36;
+  min-height: 100vh;
+  line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ---------- BACKGROUND OVERLAY ---------- */
+.background-overlay {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.35), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.28), transparent 28%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ---------- GLOBAL ---------- */
+a {
+  text-decoration: none;
+  color: #5e7242;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #40502b;
+}
+
+button {
+  background: #5e7242;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+
+button:hover {
+  background: #4d6034;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+h1, h2, h3 {
+  font-family: 'The Seasons', serif;
+}
+
+/* ---------- HERO / HOME ---------- */
+.hero {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 70px 20px 40px;
+  background: linear-gradient(to bottom, #f6f1c9, #f2eebe);
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mini-tag {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #7c8f61;
+  margin-bottom: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.hero h1 {
+  font-family: 'The Seasons', serif;
+  font-size: 64px;
+  letter-spacing: 2px;
+  color: #5e7242;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-family: 'Segoe Script', cursive;
+  font-size: 26px;
+  color: #7c5f17;
+  margin-top: 10px;
+}
+
+/* ---------- HOME SECTION ---------- */
+.home-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 20px 20px 60px;
+}
+
+.section-title {
+  text-align: center;
+  font-family: 'The Seasons', serif;
+  font-size: 34px;
+  color: #3b2d14;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* ---------- FLAG GRID ---------- */
+.flag-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 10px 0;
+}
+
+.flag-card {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(94, 114, 66, 0.15);
+  border-radius: 20px;
+  padding: 16px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  backdrop-filter: blur(5px);
+}
+
+.flag-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.1);
+}
+
+.img-wrap {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.flag-card img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+  background: #fff;
+}
+
+.flag-card span {
+  display: block;
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #5e7242;
+}
+
+.flag-card small {
+  display: block;
+  margin-top: 6px;
+  color: #7a7459;
+  font-size: 13px;
+}
+
+/* ---------- TOP BAR ---------- */
+.topbar {
+  background: rgba(255, 248, 221, 0.95);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.topbar h1 {
+  font-family: 'The Seasons', serif;
+  font-size: 32px;
+  color: #5e7242;
+  flex: 1;
+  text-align: center;
+}
+
+.topbar a {
+  background: white;
+  padding: 8px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(94, 114, 66, 0.15);
+}
+
+/* ---------- FILTER SECTION ---------- */
+.filter-section {
+  max-width: 1200px;
+  margin: 28px auto 10px;
+  padding: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 18px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+}
+
+.filter-section input,
+.filter-section select,
+.review-section input,
+.review-section textarea {
+  padding: 12px 14px;
+  border: 1px solid #ddd3a8;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  background: #fffdf7;
+  transition: border 0.25s ease, box-shadow 0.25s ease;
+}
+
+.filter-section input:focus,
+.filter-section select:focus,
+.review-section input:focus,
+.review-section textarea:focus {
+  border-color: #8ca36b;
+  box-shadow: 0 0 0 3px rgba(140, 163, 107, 0.16);
+}
+
+.filter-section input {
+  flex: 1 1 250px;
+}
+
+.filter-section select {
+  flex: 1 1 180px;
+}
+
+/* ---------- COUNTRY PAGE LAYOUT ---------- */
+.country-layout {
+  max-width: 1400px;
+  margin: 30px auto 50px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.recipes-side {
+  min-width: 0;
+}
+
+.recipes-side .recipe-grid {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.map-side {
+  position: relative;
+}
+
+.map-card {
+  position: sticky;
+  top: 140px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
+  text-align: center;
+}
+
+.map-card h2 {
+  font-family: 'The Seasons', serif;
+  font-size: 28px;
+  color: #5e7242;
+  margin-bottom: 18px;
+}
+
+.map-card img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------- RECIPE GRID ---------- */
+.recipe-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 25px 20px 50px;
+}
+
+/* ---------- RECIPE CARD ---------- */
+.recipe-card {
+  background: #fffdf6;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.07);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  border: 1px solid rgba(94, 114, 66, 0.08);
+}
+
+.recipe-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+}
+
+.recipe-card h3 {
+  font-family: 'The Seasons', serif;
+  font-size: 24px;
+  color: #5e7242;
+  padding: 16px 16px 6px;
+}
+
+.recipe-card p {
+  color: #6e6a52;
+  padding: 0 16px 14px;
+  font-size: 15px;
+}
+
+.recipe-card button {
+  margin: 0 16px 18px;
+}
+
+/* ---------- DETAILS PAGE ---------- */
+.details-container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+#recipeDetails {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
+}
+
+#recipeDetails h2 {
+  font-family: 'The Seasons', serif;
+  font-size: 40px;
+  color: #5e7242;
+  margin-bottom: 16px;
+}
+
+#recipeDetails img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+#recipeDetails p {
+  font-size: 16px;
+  color: #5a5a47;
+  margin-bottom: 18px;
+}
+
+#recipeDetails h3 {
+  font-family: 'The Seasons', serif;
+  color: #5e7242;
+  margin: 20px 0 10px;
+  font-size: 24px;
+}
+
+#recipeDetails ul,
+#recipeDetails ol {
+  padding-left: 22px;
+  color: #5a5a47;
+}
+
+#recipeDetails li {
+  margin-bottom: 8px;
+}
+
+/* ---------- REVIEW SECTION ---------- */
+.review-section {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
+}
+
+.review-section h2 {
+  font-family: 'The Seasons', serif;
+  color: #5e7242;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.review-section h3 {
+  font-family: 'The Seasons', serif;
+  color: #5e7242;
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.review-section input,
+.review-section textarea {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.review-section textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.review-section button {
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* ---------- STAR RATING ---------- */
+.star-rating {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.star-rating span {
+  font-size: 28px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.2s;
+}
+
+.star-rating span.active {
+  opacity: 1;
+}
+
+.star-rating span:hover {
+  transform: scale(1.2);
+}
+
+/* ---------- REVIEW LIST ---------- */
+#reviewList p {
+  background: #fff8df;
+  border-left: 4px solid #8ca36b;
+  padding: 12px 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  color: #5a5a47;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+  .details-container,
+  .country-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    flex-wrap: wrap;
+  }
+
+  .topbar h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .map-card {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .tagline {
+    font-size: 18px;
+  }
+
+  .mini-tag {
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .filter-section {
+    flex-direction: column;
+  }
+
+  .recipe-grid {
+    grid-template-columns: 1fr;
+    padding: 20px 16px 40px;
+  }
+
+  #recipeDetails h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 16px 24px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
+
+  .flag-grid {
+    gap: 18px;
+  }
+
+  .topbar {
+    padding: 14px 16px;
+  }
+
+  .topbar h1 {
+    font-size: 24px;
+  }
+
+  #recipeDetails,
+  .review-section,
+  .map-card {
+    padding: 18px;
+  }
+}
+.empty-state {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 24px;
+  padding: 28px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
+}
+
+.empty-state h3 {
+  font-family: 'The Seasons', serif;
+  font-size: 28px;
+  color: #5e7242;
+  margin-bottom: 10px;
+}
+
+.empty-state p {
+  color: #6e6a52;
+  margin-bottom: 20px;
+}
+
+.add-recipe-form {
+  display: grid;
+  gap: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.add-recipe-form input,
+.add-recipe-form select,
+.add-recipe-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd3a8;
+  border-radius: 12px;
+  font-size: 15px;
+  background: #fffdf7;
+  outline: none;
+}
+
+.add-recipe-form textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.add-recipe-form input:focus,
+.add-recipe-form select:focus,
+.add-recipe-form textarea:focus {
+  border-color: #8ca36b;
+  box-shadow: 0 0 0 3px rgba(140, 163, 107, 0.16);
+}
+
+.add-recipe-form button {
+  width: 100%;
+}

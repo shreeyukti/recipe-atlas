@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Atlas</title>
+
+  <link rel="stylesheet" href="design.css">
+
+  <link href="https://fonts.cdnfonts.com/css/the-seasons" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="background-overlay"></div>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="mini-tag">Explore • Cook • Enjoy</p>
+      <h1>RECIPE ATLAS</h1>
+      <p class="tagline">Bringing the world to your kitchen</p>
+    </div>
+  </header>
+
+  <section class="home-container">
+    <h2 class="section-title">
+      select a country flag below to proceed :
+    </h2>
+
+    <div class="flag-grid">
+
+      <button onclick="goToCountry('India')" class="flag-card">
+        <div class="img-wrap">
+          <img src="https://flagcdn.com/w320/in.png" alt="India Flag">
+        </div>
+        <span>India</span>
+        <small>Spicy • Rich • Comforting</small>
+      </button>
+
+      <button onclick="goToCountry('Italy')" class="flag-card">
+        <div class="img-wrap">
+          <img src="https://flagcdn.com/w320/it.png" alt="Italy Flag">
+        </div>
+        <span>Italy</span>
+        <small>Classic • Cheesy • Cozy</small>
+      </button>
+
+      <button onclick="goToCountry('Japan')" class="flag-card">
+        <div class="img-wrap">
+          <img src="https://flagcdn.com/w320/jp.png" alt="Japan Flag">
+        </div>
+        <span>Japan</span>
+        <small>Fresh • Balanced • Elegant</small>
+      </button>
+
+      <button onclick="goToCountry('Mexico')" class="flag-card">
+        <div class="img-wrap">
+          <img src="https://flagcdn.com/w320/mx.png" alt="Mexico Flag">
+        </div>
+        <span>Mexico</span>
+        <small>Bold • Zesty • Vibrant</small>
+      </button>
+
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

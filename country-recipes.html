@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Recipes</title>
+
+  <link rel="stylesheet" href="design.css">
+  <link href="https://fonts.cdnfonts.com/css/the-seasons" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <a href="home.html">← Back</a>
+    <h1 id="countryTitle"></h1>
+  </header>
+
+  <!-- FILTER -->
+  <section class="filter-section">
+    <input type="text" id="searchInput" placeholder="Search recipe...">
+
+    <select id="typeFilter">
+      <option value="all">All</option>
+      <option value="Vegetarian">Vegetarian</option>
+      <option value="Non-Vegetarian">Non-Vegetarian</option>
+      <option value="Gluten-Free">Gluten-Free</option>
+    </select>
+
+    <select id="timeFilter">
+      <option value="all">Any Time</option>
+      <option value="15">Under 15 min</option>
+      <option value="30">Under 30 min</option>
+    </select>
+  </section>
+
+  <main class="country-layout">
+
+    <!-- LEFT SIDE -->
+    <section class="recipes-side">
+      
+
+      <div id="recipeList" class="recipe-grid"></div>
+
+      <!-- EMPTY STATE -->
+      <div id="emptyState" class="empty-state" style="display:none;">
+        <h3>There are no current recipes at the moment.</h3>
+        <p>Add your own recipe for us to review </p>
+
+        <div class="add-recipe-form">
+
+          <input type="text" id="newRecipeName" placeholder="Recipe name">
+
+          <input type="text" id="newRecipeCountry" readonly>
+
+          <input type="number" id="newRecipeTime" placeholder="Cooking time (mins)" min="1" step="1">
+
+          <select id="newRecipeType">
+            <option value="">Select category</option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Non-Vegetarian">Non-Vegetarian</option>
+            <option value="Gluten-Free">Gluten-Free</option>
+          </select>
+
+          <input type="text" id="newRecipeImg" placeholder="Image URL (optional)">
+
+          <textarea id="newRecipeIngredients" placeholder="Ingredients (comma separated)"></textarea>
+
+          <textarea id="newRecipeSteps" placeholder="Steps (comma separated)"></textarea>
+
+          <button onclick="submitUserRecipe()">Submit Recipe</button>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RIGHT SIDE -->
+    <aside class="map-side">
+      <div class="map-card">
+        <h2 id="mapTitle"></h2>
+        <img id="countryMap" alt="Map">
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
