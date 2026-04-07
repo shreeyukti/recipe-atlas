@@ -188,7 +188,52 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
       "Cook on pan until golden.",
       "Cut into slices and serve."
     ]
-  }
+  },
+{
+    id: 13,
+    name: "Koshari",
+    country: "Egypt",
+    type: "Vegetarian",
+    time: 35,
+    img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Rice", "Lentils", "Pasta", "Chickpeas", "Tomato sauce", "Fried onions"],
+    steps: [
+        "Cook rice, lentils, and pasta separately.",
+        "Mix them together in a bowl.",
+        "Top with tomato sauce and chickpeas.",
+        "Garnish with crispy fried onions and serve."
+    ]
+},
+{
+    id: 14,
+    name: "Falafel (Ta’ameya)",
+    country: "Egypt",
+    type: "Vegetarian",
+    time: 20,
+    img: "https://images.unsplash.com/photo-1680405531955-8b4981bb1b0c?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Fava beans", "Parsley", "Coriander", "Garlic", "Onion", "Spices", "Oil"],
+    steps: [
+        "Soak and grind fava beans with herbs and spices.",
+        "Shape the mixture into small balls or patties.",
+        "Deep fry until crispy and golden brown.",
+        "Serve hot with bread or dip."
+    ]
+},
+{
+    id: 15,
+    name: "Chicken Shawarma",
+    country: "Egypt",
+    type: "Non-Vegetarian",
+    time: 25,
+    img: "https://images.unsplash.com/photo-1676300187013-7540d4e9440d?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Chicken", "Yogurt", "Garlic", "Spices", "Pita bread", "Vegetables"],
+    steps: [
+        "Marinate chicken with yogurt, garlic, and spices.",
+        "Cook the chicken until tender and slightly crispy.",
+        "Slice into thin strips.",
+        "Wrap in pita bread with vegetables and sauce."
+    ]
+}
 ];
 
 function getUserRecipes() {
@@ -220,7 +265,8 @@ function loadRecipes() {
     India: "https://commons.wikimedia.org/wiki/Special:Redirect/file/India%20%28orthographic%20projection%29.svg",
     Italy: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Italy%20%28orthographic%20projection%29.svg",
     Japan: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Japan%20%28orthographic%20projection%29.svg",
-    Mexico: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mexico%20%28orthographic%20projection%29.svg"
+    Mexico: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mexico%20%28orthographic%20projection%29.svg",
+    Egypt: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mexico%20%28orthographic%20projection%29.svg"
   };
 
   document.getElementById("mapTitle").innerText = country + " Map";
