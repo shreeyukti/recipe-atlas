@@ -573,7 +573,7 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
     country: "Wales",
     type: "Vegetarian",
     time: 20,
-    img: "hhttps://i.postimg.cc/3NTnWBK8/perfect-welsh-rarebit-featured-1.jpg?auto=format&fit=crop&w=800&q=80",
+    img: "https://i.postimg.cc/3NTnWBK8/perfect-welsh-rarebit-featured-1.jpg?auto=format&fit=crop&w=800&q=80",
     ingredients: ["Bread", "Cheese", "Mustard", "Butter"],
     steps: [
         "Toast the bread.",
@@ -792,7 +792,7 @@ function loadRecipes() {
     Thailand: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thailand%20%28orthographic%20projection%29.svg",
     Sweden: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sweden%20%28orthographic%20projection%29.svg",
     "New Zealand": "https://commons.wikimedia.org/wiki/Special:Redirect/file/New%20Zealand%20%28orthographic%20projection%29.svg",
-    Wales: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wales%20%28orthographic%20projection%29.svg",
+    Wales: "https://commons.wikimedia.org/wiki/File:Wales_in_the_UK_and_Europe.svg",
     Philippines: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Philippines%20%28orthographic%20projection%29.svg",
   };
 
