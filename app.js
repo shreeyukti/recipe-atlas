@@ -792,7 +792,7 @@ function loadRecipes() {
     Thailand: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thailand%20%28orthographic%20projection%29.svg",
     Sweden: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sweden%20%28orthographic%20projection%29.svg",
     "New Zealand": "https://commons.wikimedia.org/wiki/Special:Redirect/file/New%20Zealand%20%28orthographic%20projection%29.svg",
-    Wales: "https://commons.wikimedia.org/wiki/File:Wales_in_the_UK_and_Europe.svg",
+    Wales: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Wales_in_the_UK_and_Europe.svg/1920px-Wales_in_the_UK_and_Europe.svg.png?_=20140806200056",
     Philippines: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Philippines%20%28orthographic%20projection%29.svg",
   };
 
