@@ -566,6 +566,189 @@ img: "https://plus.unsplash.com/premium_photo-1681406689563-247f41ec5ac6?q=80&w=
         "Coat with sugar.",
         "Serve with chocolate."
     ]
+},
+  {
+    id: 37,
+    name: "Welsh Rarebit",
+    country: "Wales",
+    type: "Vegetarian",
+    time: 20,
+    img: "hhttps://i.postimg.cc/3NTnWBK8/perfect-welsh-rarebit-featured-1.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Bread", "Cheese", "Mustard", "Butter"],
+    steps: [
+        "Toast the bread.",
+        "Melt cheese with butter and mustard.",
+        "Spread over toast.",
+        "Grill until bubbly.",
+        "Serve hot."
+    ]
+},
+{
+    id: 38,
+    name: "Cawl",
+    country: "Wales",
+    type: "Non-Vegetarian",
+    time: 40,
+    img: "https://i.postimg.cc/L43VNj9X/cawl-welsh-lamb-soup-71220-1.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Lamb", "Potatoes", "Carrots", "Leeks", "Onion"],
+    steps: [
+        "Boil lamb with vegetables.",
+        "Simmer until tender.",
+        "Season to taste.",
+        "Serve hot."
+    ]
+},
+{
+    id: 39,
+    name: "Bara Brith",
+    country: "Wales",
+    type: "Vegetarian",
+    time: 50,
+    img: "https://i.postimg.cc/gJPvK21V/recipe-image-legacy-id-1239459-8-4fbd4b1.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Flour", "Dried fruits", "Tea", "Sugar"],
+    steps: [
+        "Soak dried fruits in tea.",
+        "Mix with flour and sugar.",
+        "Bake until firm.",
+        "Slice and serve."
+    ]
+},
+  {
+    id: 40,
+    name: "Swedish Meatballs",
+    country: "Sweden",
+    type: "Non-Vegetarian",
+    time: 30,
+    img: "https://images.unsplash.com/photo-1600688685721-852c38f6e8a6?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Minced meat", "Onion", "Egg", "Breadcrumbs", "Cream"],
+    steps: [
+        "Mix ingredients and form balls.",
+        "Fry until browned.",
+        "Add cream sauce.",
+        "Serve hot."
+    ]
+},
+{
+    id: 41,
+    name: "Gravlax",
+    country: "Sweden",
+    type: "Non-Vegetarian",
+    time: 25,
+    img: "https://i.postimg.cc/C1Yqq6fX/simple-homemade-gravlax-recipe-2216618-step-15-288e5b9150154a09b23c3c6c418e7327.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Salmon", "Salt", "Sugar", "Dill"],
+    steps: [
+        "Cure salmon with salt and sugar.",
+        "Add dill.",
+        "Refrigerate for a day.",
+        "Slice thinly and serve."
+    ]
+},
+{
+    id: 42,
+    name: "Cinnamon Buns",
+    country: "Sweden",
+    type: "Vegetarian",
+    time: 40,
+    img: "https://i.postimg.cc/1t98tnkx/swedish-cinnamon-buns-3.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Flour", "Cinnamon", "Sugar", "Butter", "Yeast"],
+    steps: [
+        "Prepare dough.",
+        "Add cinnamon filling.",
+        "Roll and shape.",
+        "Bake until golden.",
+        "Serve warm."
+    ]
+},
+  {
+    id: 43,
+    name: "Chicken Adobo",
+    country: "Philippines",
+    type: "Non-Vegetarian",
+    time: 35,
+    img: "https://images.unsplash.com/photo-1596699917234-1c93c61a1083?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Chicken", "Soy sauce", "Vinegar", "Garlic", "Bay leaves"],
+    steps: [
+        "Marinate chicken.",
+        "Cook with sauce.",
+        "Simmer until tender.",
+        "Serve hot."
+    ]
+},
+{
+    id: 44,
+    name: "Pancit",
+    country: "Philippines",
+    type: "Non-Vegetarian",
+    time: 25,
+    img: "https://i.postimg.cc/XqtNwpzV/filipino-pancit-1200.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Noodles", "Vegetables", "Chicken", "Soy sauce"],
+    steps: [
+        "Cook noodles.",
+        "Stir-fry ingredients.",
+        "Mix together.",
+        "Serve hot."
+    ]
+},
+{
+    id: 45,
+    name: "Halo-Halo",
+    country: "Philippines",
+    type: "Vegetarian",
+    time: 15,
+    img: "https://i.postimg.cc/SKmS70DF/Halo-Halo-12e653b.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Ice", "Milk", "Fruits", "Beans", "Sugar"],
+    steps: [
+        "Add ingredients to a bowl.",
+        "Top with ice.",
+        "Pour milk.",
+        "Mix and serve."
+    ]
+},
+{
+    id: 46,
+    name: "Fish and Chips",
+    country: "New Zealand",
+    type: "Non-Vegetarian",
+    time: 25,
+    img: "https://i.postimg.cc/RCJW0BYy/Fish-and-chips-blackpool.jpg?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Fish fillets", "Potatoes", "Flour", "Oil", "Salt"],
+    steps: [
+        "Cut potatoes into fries.",
+        "Coat fish in flour batter.",
+        "Deep fry fish and chips until golden.",
+        "Season with salt.",
+        "Serve hot."
+    ]
+},
+{
+    id: 47,
+    name: "Pavlova",
+    country: "New Zealand",
+    type: "Vegetarian",
+    time: 40,
+    img: "https://images.unsplash.com/photo-1702744754798-4a1d980b03e2?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Egg whites", "Sugar", "Cream", "Fruits"],
+    steps: [
+        "Whip egg whites.",
+        "Bake meringue base.",
+        "Add cream and fruits.",
+        "Serve chilled."
+    ]
+},
+{
+    id: 48,
+    name: "Meat Pie",
+    country: "New Zealand",
+    type: "Non-Vegetarian",
+    time: 35,
+    img: "https://i.postimg.cc/nhFVqbdZ/Traditional-Chunky-Pepper-Beef-Pies.avif?auto=format&fit=crop&w=800&q=80",
+    ingredients: ["Pastry", "Meat", "Gravy"],
+    steps: [
+        "Prepare filling.",
+        "Fill pastry.",
+        "Bake until golden.",
+        "Serve hot."
+    ]
 }
 ];
 
@@ -607,6 +790,10 @@ function loadRecipes() {
     Vietnam: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vietnam%20%28orthographic%20projection%29.svg",
     Spain: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain%20%28orthographic%20projection%29.svg",
     Thailand: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thailand%20%28orthographic%20projection%29.svg",
+    Sweden: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sweden%20%28orthographic%20projection%29.svg",
+    "New Zealand": "https://commons.wikimedia.org/wiki/Special:Redirect/file/New%20Zealand%20%28orthographic%20projection%29.svg",
+    Wales: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wales%20%28orthographic%20projection%29.svg",
+    Philippines: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Philippines%20%28orthographic%20projection%29.svg",
   };
 
   document.getElementById("mapTitle").innerText = country + " Map";
