@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login – Recipe Atlas</title>
+  <link rel="stylesheet" href="design.css">
+  <link href="https://fonts.cdnfonts.com/css/the-seasons" rel="stylesheet">
+</head>
+<body>
+  <div class="background-overlay"></div>
+
+  <header class="hero" style="padding: 40px 20px 30px;">
+    <div class="hero-content">
+      <p class="mini-tag">Welcome Back</p>
+      <h1>RECIPE ATLAS</h1>
+      <p class="tagline">Sign in to cook, review & explore</p>
+    </div>
+  </header>
+
+  <section class="home-container">
+    <div class="auth-box">
+      <div class="auth-tabs">
+        <button id="loginTab" class="auth-tab active" onclick="showTab('login')">Login</button>
+        <button id="registerTab" class="auth-tab" onclick="showTab('register')">Register</button>
+      </div>
+
+      <!-- LOGIN FORM -->
+      <div id="loginForm">
+        <h2>Login</h2>
+        <input type="text" id="loginUsername" placeholder="Username">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <div id="loginError" class="auth-error"></div>
+        <button onclick="handleLogin()">Login</button>
+      </div>
+
+      <!-- REGISTER FORM -->
+      <div id="registerForm" style="display:none;">
+        <h2>Create Account</h2>
+        <input type="text" id="regUsername" placeholder="Choose a username">
+        <input type="password" id="regPassword" placeholder="Choose a password">
+        <input type="password" id="regConfirm" placeholder="Confirm password">
+        <div id="registerError" class="auth-error"></div>
+        <button onclick="handleRegister()">Create Account</button>
+      </div>
+
+      <p class="auth-back"><a href="index.html">← Back to Recipe Atlas</a></p>
+    </div>
+  </section>
+
+  <script>
+    function showTab(tab) {
+      document.getElementById('loginForm').style.display = tab === 'login' ? 'block' : 'none';
+      document.getElementById('registerForm').style.display = tab === 'register' ? 'block' : 'none';
+      document.getElementById('loginTab').classList.toggle('active', tab === 'login');
+      document.getElementById('registerTab').classList.toggle('active', tab === 'register');
+    }
+
+    async function handleLogin() {
+      const username = document.getElementById('loginUsername').value.trim();
+      const password = document.getElementById('loginPassword').value;
+      const error = document.getElementById('loginError');
+
+      if (!username || !password) {
+        error.innerText = 'Please fill in all fields';
+        return;
+      }
+
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+
+      const data = await res.json();
+      if (res.ok) {
+        window.location.href = 'index.html';
+      } else {
+        error.innerText = data.message;
+      }
+    }
+
+    async function handleRegister() {
+      const username = document.getElementById('regUsername').value.trim();
+      const password = document.getElementById('regPassword').value;
+      const confirm = document.getElementById('regConfirm').value;
+      const error = document.getElementById('registerError');
+
+      if (!username || !password) {
+        error.innerText = 'Please fill in all fields';
+        return;
+      }
+
+      if (password !== confirm) {
+        error.innerText = 'Passwords do not match';
+        return;
+      }
+
+      if (password.length < 6) {
+        error.innerText = 'Password must be at least 6 characters';
+        return;
+      }
+
+      const res = await fetch('/api/auth/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+
+      const data = await res.json();
+      if (res.ok) {
+        window.location.href = 'index.html';
+      } else {
+        error.innerText = data.message;
+      }
+    }
+
+    // If already logged in, redirect
+    fetch('/api/auth/me').then(r => r.json()).then(data => {
+      if (data.user) window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
